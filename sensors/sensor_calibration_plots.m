@@ -23,6 +23,6 @@ hold on
 plot(distance, polarity_1, "LineWidth", 1.5)
 yline(2.55, "--")
 xlabel("Distance (mm)")
-ylabel("Sensor Reading (0-1023)")
+ylabel("Sensor Reading (V)")
 title("Hall Effect Sensor Calibration")
 legend("North Side", "South Side", "Equilibrium")
